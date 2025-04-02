@@ -1,4 +1,4 @@
-div{
+/* div{
     width: 250px;
     height: 250px;
     background-color: blue;
@@ -29,10 +29,10 @@ p{
     background-color: hsla(0,50%,50%,0.5);
 }
 
-*{
+/* *{
     color: green;
     font-weight: bolder;
-}
+} 
 
 #soy_unico{
     width: 250px;
@@ -68,4 +68,77 @@ p::first-letter{
 
 .padre p{
     color:red
+}
+
+ */
+
+
+
+
+p#unico.foo{
+    color: red;
+}
+p#unico.foo.bar{
+    color: green;
+}
+
+.main{
+    width: 200px;;
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+.special{
+    color: red;
+    font-weight: bold ;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+
+    background-color: darkgoldenrod;
+}
+
+.cajon{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15,125, 36);
+}
+.caja-interior{
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.caja-interior p{
+    font-size: 6rem;
+    color: white;
+}
+
+body{
+    margin:0;
+}
+#vw{
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+}
+
+
+div#uno{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+    padding: 25px;
+    /* border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px dashed green; */
+    border: 12px solid yellow;
+    margin: 13px;
 }
